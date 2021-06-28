@@ -2,7 +2,7 @@ package com.badoo.reaktive.dependencies
 
 object Deps {
 
-    private const val kotlinVersion = "1.5.10"
+    private const val kotlinVersion = "1.5.30-dev-2892"
     private const val coroutinesVersion = "1.5.0"
     private const val detektVersion = "1.9.1"
     private const val asmVersion = "6.0"
@@ -46,7 +46,7 @@ object Deps {
         val coroutines = Coroutines
         val metadata = Metadata
         // TODO Remove tools/binary-compatibility-validator on upgrade
-        val compatibility = "org.jetbrains.kotlinx:binary-compatibility-validator:0.5.0-SNAPSHOT"
+        val compatibility = "org.jetbrains.kotlinx:binary-compatibility-validator:0.5.0"
 
         object Coroutines {
             val android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"
